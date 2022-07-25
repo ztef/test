@@ -45,7 +45,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 style: FlutterFlowTheme.of(context).bodyText1,
               ),
               Container(
-                child: custom_widgets.TestWidget(),
+                width: 300,
+                height: 300,
+                child: custom_widgets.TestWidget(
+                  width: 300,
+                  height: 300,
+                ),
               ),
             ],
           ),
