@@ -41,7 +41,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
             mainAxisSize: MainAxisSize.max,
             children: [
               Text(
-                'Hello World',
+                'Holaa Mundod',
                 style: FlutterFlowTheme.of(context).bodyText1,
               ),
               Container(
